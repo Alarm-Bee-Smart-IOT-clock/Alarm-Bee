@@ -26,6 +26,7 @@ To get started with the Alarm Bee App, follow these steps:
 1. **Create an Account**:
    - Open the app and create a new account by providing your username.
         <br />
+         <br />
         <img src="images/login.jpeg" alt="login" width="200" >&nbsp;&nbsp;&nbsp;
   
      
@@ -34,16 +35,19 @@ To get started with the Alarm Bee App, follow these steps:
    - After creating your account, scan the provided QR code to establish your personalized user space in Firebase. This step ensures secure data access and enhances data privacy.
    - After scanning, App navigate to Home page
        <br />
+        <br />
        <img src="images/home.jpeg" alt="home" width="200" >&nbsp;&nbsp;&nbsp;
 
 3. **Set Alarms**:
    - After adding reminders, proceed to set alarms for specific times and days. Navigate to the alarms section in the app and click on the "Set Alarm" button to create a new alarm.
         <br />
+         <br />
         <img src="images/alarm.jpeg" alt="set alarm" width="200" >&nbsp;&nbsp;&nbsp;
 
 4. **Add Reminders**:
    - Once your account is set up, you can start adding reminders for important tasks or events. Navigate to the reminders section in the app and click on the "Add Reminder" button to create a new reminder.
         <br />
+         <br />
         <img src="images/reminders.jpeg" alt="set reminders" width="200">
 
 ## Installation
