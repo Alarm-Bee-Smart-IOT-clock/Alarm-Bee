@@ -28,3 +28,29 @@ Alarm Bee App is an Android application developed using Android Studio, Java. It
   <img src="images/alarm.jpeg" alt="set alarm" width="200" >&nbsp;&nbsp;&nbsp;
   <img src="images/reminders.jpeg" alt="set reminders" width="200">
 </p>
+## Getting Started
+
+To get started with the Alarm Bee App, follow these steps:
+
+1. **Create an Account**:
+   - Open the app and create a new account by providing your username.
+
+2. **Scan QR Code**:
+   - After creating your account, scan the provided QR code to establish your personalized user space in Firebase. This step ensures secure data access and enhances data privacy.
+
+3. **Add Reminders**:
+   - Once your account is set up, you can start adding reminders for important tasks or events. Navigate to the reminders section in the app and click on the "Add Reminder" button to create a new reminder.
+
+## Installation
+
+To run the Alarm Bee App on your local machine, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/saumya/alarm-bee-app.git
+2. **Open the project in Android Studio**
+3. **Set up Firebase**
+   - Create a Firebase project in the Firebase console.
+   - Add your Firebase configuration file (google-services.json) to the app directory.
+4. **Run the app on an Android device or emulator**
+   
