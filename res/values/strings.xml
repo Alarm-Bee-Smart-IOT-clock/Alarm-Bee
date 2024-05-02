@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Alarm Bee</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="welcome_to_alarm_bee_string">Welcome to Alarm Bee !</string>
+    <string name="seize_every_second__stay_on_top_of_your_schedule_string">Seize Every Second,  \nStay on Top of Your Schedule</string>
+    <string name="get_start_string">Get Start </string>
+    <string name="add_arlam">Add Alarms </string>
+    <string name="add_remainders">Add Remainders</string>
+</resources>

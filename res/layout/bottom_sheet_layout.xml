@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jump to Date"
+        android:fontFamily="@font/font1"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:id="@+id/dayEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Day"
+            android:inputType="number"
+            android:maxWidth="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="60dp"
+            android:gravity="center"
+            />
+
+        <!-- Month -->
+        <TextView
+            android:id="@+id/monthEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Month"
+            android:inputType="number"
+            android:maxWidth="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            />
+
+        <!-- Year -->
+        <TextView
+            android:id="@+id/yearEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Year"
+            android:inputType="number"
+            android:maxWidth="80dp"
+            android:layout_weight="1"
+            android:layout_marginRight="60dp"/>
+
+    </LinearLayout>
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="OK" />
+
+    </LinearLayout>
+
+</LinearLayout>

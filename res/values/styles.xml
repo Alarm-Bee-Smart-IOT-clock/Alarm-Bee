@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- firstpage styles -->
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">@color/purple_500</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="CalendarDateTextAppearance">
+		<item name="android:textColor">#FFFFFF</item> <!-- Set text color to white -->
+		<item name="android:textSize">30sp</item> <!-- Set text size to 20sp -->
+		<!-- You can add more attributes if needed -->
+	</style>
+</resources>

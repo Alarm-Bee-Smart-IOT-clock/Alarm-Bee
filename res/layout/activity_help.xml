@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/feed"
+    android:layout_weight="3"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_200"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:background="@color/purple_200"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alarm Bee"
+            android:textColor="@color/black"
+            android:fontFamily="@font/font1"
+            android:textSize="20dp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Steps to Handle the App"
+        android:fontFamily="@font/font1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Step 1: Set up the device -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_weight="1">
+
+        <!-- Step Icon -->
+
+        <!-- Step Description -->
+        <ImageView
+            android:layout_width="151dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/setup" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1. First, set up the device."
+            android:textSize="18sp"
+            android:layout_marginStart="16dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/font1"/>
+    </LinearLayout>
+
+    <!-- Step 2: Set reminders -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_weight="1">
+
+        <!-- Step Icon -->
+        <ImageView
+            android:layout_width="151dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/remainders" />
+
+        <!-- Step Description -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2. To set reminders, select the date and type of reminder, then save."
+            android:textSize="18sp"
+            android:layout_marginStart="16dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/font1"/>
+    </LinearLayout>
+
+    <!-- Step 3: Set alarms -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="15dp">
+
+        <!-- Step Icon -->
+        <ImageView
+            android:layout_width="151dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/arlam" />
+
+        <!-- Step Description -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3. To set alarms, select the alarm time and add the alarm."
+            android:textSize="18sp"
+            android:layout_marginStart="16dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/font1"/>
+    </LinearLayout>
+
+</LinearLayout>

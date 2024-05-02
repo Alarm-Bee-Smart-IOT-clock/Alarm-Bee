@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- _bg__firstpage_container from your XD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle" >
+	<solid android:color="@color/_bg__firstpage_container_color" />
+	<gradient android:angle="270" android:type="linear" android:startColor="#ff8250ee" android:endColor="#ff781a80" />
+</shape>
+

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/gradient"
+    android:id="@+id/parent_layout"    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/background"
+        app:title=""
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_person_24"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+           />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/arlam_bee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/font1"
+        android:text="Alarm Bee..."
+        android:textColor="@color/welcome_to_alarm_bee_color"
+        android:textSize="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/font1"
+        android:text="Step into a world of seamless mornings and organized days"
+        android:textColor="@color/welcome_to_alarm_bee_color"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif2"
+        android:layout_width="404dp"
+        android:layout_height="257dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/clock10"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="485dp"
+        android:weightSum="2"
+        android:layout_margin="30dp"
+        android:padding="5dp"
+        android:layout_below="@id/gif2"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/addAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/add_arlam"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rounded_button"
+            />
+
+        <Button
+            android:id="@+id/addRemainders"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="@string/add_remainders"
+            android:background="@drawable/rounded_button"/>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation_menu"
+        android:background="@color/background"/>
+
+
+
+</RelativeLayout>

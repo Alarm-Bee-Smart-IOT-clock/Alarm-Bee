@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/cardView">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="	#800080"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/date_select"
+            android:fontFamily="@font/font1"
+            android:textSize="20dp"
+            android:text="hello"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/reminderText"
+            android:layout_below="@id/date_select"
+            android:fontFamily="@font/font1"
+            android:textSize="20dp"
+            android:text="hello"
+            />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/reminderText"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/baseline_delete_24"
+            android:layout_marginLeft="150dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

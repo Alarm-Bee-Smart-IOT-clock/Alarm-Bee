@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@drawable/calender2">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="40dp"
+
+        />
+
+    <TextView
+        android:id="@+id/selectedDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendarView"
+        android:layout_marginTop="37dp"
+        android:text="Selected Date: "
+        android:textSize="25dp"
+        android:layout_marginLeft="28dp"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/reminderEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your reminder"
+        android:layout_below="@id/selectedDateTextView"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"/>
+
+
+    <Button
+        android:id="@+id/saveButton"
+        android:background="@drawable/save_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/reminderEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/font1"
+        android:textSize="25dp"
+        android:text="Save"
+        android:onClick="addReminder"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:menu="@menu/bottom_app_bar_menu"
+        />
+
+
+</RelativeLayout>

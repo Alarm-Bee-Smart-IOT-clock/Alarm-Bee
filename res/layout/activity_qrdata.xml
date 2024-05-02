@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:paddingTop="10dp"
+        android:text="Mastering Time: Your Clock Setup Journey"
+        android:textSize="22dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/textViewLine"
+        android:layout_below="@id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Power Up the Clock.\n\n2. On your mobile device, go to the list of available WiFi networks."
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:padding="30dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewLine1"
+        android:layout_below="@id/textViewLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="line1"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="30dp"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/textViewLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLine1"
+        android:text="line2 "
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLine2"
+        android:text="In Web Browser,\n\n4. Enter your home WiFi SSID (network name) and password into the provided fields.\n\n5. Save or apply the changes."
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="30dp"/>
+
+
+    <TextView
+        android:id="@+id/textViewLine3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:text="line3"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="30dp"/>
+
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/font1"
+        android:text="Finish"
+        android:layout_below="@id/textViewLine3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:background="@drawable/round_button2" />
+
+
+</RelativeLayout>

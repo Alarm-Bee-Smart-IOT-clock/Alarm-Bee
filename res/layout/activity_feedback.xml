@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- feedback_input_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/feed">
+
+    <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/purple_200"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <ImageButton
+        android:id="@+id/button_back"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:background="@color/purple_200"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alarm Bee"
+            android:textColor="@color/black"
+            android:fontFamily="@font/font1"
+            android:textSize="20dp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We'd Love to Hear From You"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/font1"
+        android:padding="16dp"
+        />
+
+    <!-- Feedback Input Fields -->
+    <EditText
+        android:id="@+id/edit_text_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:hint="Your feedback"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="20dp"
+        android:gravity="top|left"
+        android:layout_margin="16dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Your email (optional)"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_margin="16dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/button_submit_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/baseline_send_24"
+        android:layout_gravity="right"
+        android:padding="20dp"
+        android:layout_marginRight="50dp"
+        />
+
+</LinearLayout>

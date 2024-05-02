@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/clock5">
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Select alarm time"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTime"
+        android:layout_marginTop="20dp"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBoxDaily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repeat daily"
+        android:layout_below="@id/checkBoxOnce"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/font1"
+        android:textSize="19dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxMondayToFriday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repeat Monday to Friday"
+        android:layout_below="@id/checkBoxDaily"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/font1"
+        android:textSize="19dp"/>
+    <CheckBox
+        android:id="@+id/checkBoxOnce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repeat Monday to Friday"
+        android:layout_below="@id/timePicker"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/font1"
+        android:textSize="19dp"/>
+    <Button
+        android:id="@+id/btnSetAlarm"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Set Alarm"
+        android:layout_below="@id/checkBoxMondayToFriday"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="95dp"
+        android:fontFamily="@font/font1"
+        android:textSize="20dp"
+        android:background="@drawable/rounded_button"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        android:background="#ffd1dc"
+        />
+
+
+
+
+</RelativeLayout>
+
