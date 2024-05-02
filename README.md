@@ -19,10 +19,9 @@ Alarm Bee App is an Android application developed using Android Studio, Java. It
 
 
 
-![Screenshot 1](images/login.jpeg)
-
-![Screenshot 2](images/home.jpeg)
-
-![Screenshot 3](images/arlarm.jpeg)
-
-![Screenshot 4](images/reminders.jpeg)
+<p align="center">
+  <img src="images/login.jpeg" alt="Screenshot 1" width="200" style="margin-right: 20px;">
+  <img src="images/home.jpeg" alt="Screenshot 2" width="200" style="margin-right: 20px;">
+  <img src="images/alarm.jpeg" alt="Screenshot 3" width="200" style="margin-right: 20px;">
+  <img src="images/reminders.jpeg" alt="Screenshot 4" width="200">
+</p>
