@@ -1,5 +1,8 @@
 # Smart Clock 
-The clock powered by ESP32 microcontroller, integrated with Firebase, and controlled by the Alarm Bee App. The clock displays the daily remainders and ringing alarms that user setted trought the App.
+<img src="images/iot clock.png" alt="clock" width="200" >
+
+
+<p>The clock powered by ESP32 microcontroller, integrated with Firebase, and controlled by the Alarm Bee App. The clock displays the daily remainders and ringing alarms that user setted trought the App.</p>
 
 ## Features
 - Automatic time and date adjustment based on GMT.
