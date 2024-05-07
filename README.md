@@ -82,4 +82,4 @@ To run the Alarm Bee App on your local machine, follow these steps:
 4. **Run the app on an Android device or emulator**
    
 # Contact 
-For inquiries or support, please contact [saumyaabeysekara@gmail.com](mailto:your@email.com).
+For inquiries or support, please contact [sanudatharin@gmail.com](mailto:your@email.com).
