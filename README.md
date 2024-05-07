@@ -1,3 +1,18 @@
+# Smart Clock 
+The clock powered by ESP32 microcontroller, integrated with Firebase, and controlled by the Alarm Bee App. The clock displays the daily remainders and ringing alarms that user setted trought the App.
+
+## Features
+- Automatic time and date adjustment based on GMT.
+- Remote access and control via the Alarm Bee App.
+- Touch buttons for stopping alarms and displaying daily reminders.
+- Rechargeable battery powered.
+
+## Getting Started 
+check out the user manual 
+<br />
+<br />
+
+
 # Alarm-Bee-App
 Alarm Bee App is an Android application developed using Android Studio, Java. It serves as a comprehensive alarm and reminder tool, integrated with Firebase Realtime Database for seamless data synchronization across devices. Users can set alarms, create reminders, manage their schedule, and securely access their data through user authentication.
 
